@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.js",
-    "prettify": "npx prettier --write **/*.js",
+    "prettify": "npx prettier --write src/**/*.js",
     "validate":"yarn lint && yarn prettify"
   },
   "eslintConfig": {
