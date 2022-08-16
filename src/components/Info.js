@@ -1,4 +1,3 @@
-const s = "abc";
 const Info = () => {
   return (
     <div

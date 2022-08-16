@@ -4,7 +4,6 @@ import Achievements from "./Achievements";
 import Contact from "./Contact";
 
 const Main = () => {
-  console.log("hey");
   return (
     <div style={{ padding: "2rem" }}>
       <Info />
