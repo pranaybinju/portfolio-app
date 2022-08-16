@@ -19,7 +19,7 @@
     "lint": "eslint src/**/*.js",
     "prettify": "npx prettier --write \"**/*.(js)\"",
     "validate": "yarn lint && yarn prettify",
-    "stagelint":"yarn lint-staged"
+    "stagelint":"yarn lint-staged --allow-empty"
   },
   "eslintConfig": {
     "extends": [
