@@ -18,7 +18,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.js",
     "prettify": "npx prettier --write src/**/*.js",
-    "validate":"yarn lint && yarn prettify"
+    "validate": "yarn lint && yarn prettify",
+    "stagelint":"yarn lint-staged"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +43,7 @@
     "eslint": "^8.22.0",
     "eslint-plugin-react": "^7.30.1",
     "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "prettier": "2.7.1"
   }
 }
