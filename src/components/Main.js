@@ -1,9 +1,10 @@
-import Info from "./Info"
-import Skills from "./Skills"
-import Achievements from "./Achievements"
-import Contact from "./Contact"
+import Info from "./Info";
+import Skills from "./Skills";
+import Achievements from "./Achievements";
+import Contact from "./Contact";
 
 const Main = () => {
+  console.log("hey");
   return (
     <div style={{ padding: "2rem" }}>
       <Info />
@@ -13,7 +14,7 @@ const Main = () => {
         <Contact />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;

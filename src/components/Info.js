@@ -1,3 +1,4 @@
+const s = "abc";
 const Info = () => {
   return (
     <div
@@ -27,7 +28,7 @@ const Info = () => {
         </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Info
+export default Info;
