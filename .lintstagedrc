@@ -1,6 +1,7 @@
 {
   "*.js": [
     "yarn lint",
-    "yarn prettify"
+    "yarn prettify",
+    "git add"
   ]
 }
