@@ -6,7 +6,7 @@ const Contact = () => {
          </h1>
          <p style={{ fontSize: "1.2rem" }}>{"ash.ketchum@pokemail.com"}</p>
       </div>
-   )
+   );
 }
 
 export default Contact
